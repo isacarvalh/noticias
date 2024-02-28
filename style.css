@@ -72,17 +72,11 @@ body {
     padding: 1.5rem 1.1rem;
 }
 
-.bb {
+.margin-border-padding {
     border: 1px solid var(--gunmetal);
-
-}
-
-.mb {
     margin-bottom: 1.75rem;
-}
-
-.pb {
     padding-bottom: 1.75rem;
+
 }
 
 .segunda-secao h2 {
@@ -102,6 +96,39 @@ body {
 
 .segunda-secao p {
     color: var(--silver);
+    font-size: 0.9375rem;
+    line-height: 1.625rem;
+}
+
+.terceira-secao > div {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.terceira-secao img {
+    max-width: 6.25rem;
+
+}
+
+.terceira-secao strong {
+    color: var(--silver);
+    font-size: 2rem;
+    line-height: 100%;
+
+}
+
+.terceira-secao h2 {
+    color: var(--dark-blue);
+    font-size: 1.25rem;
+    font-weight: 800;
+    line-height: 1.5rem;
+    margin-block: 0.6rem;
+}
+
+.terceira-secao p {
+    color: var(--gunmetal);
     font-size: 0.9375rem;
     line-height: 1.625rem;
 }
